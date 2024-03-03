@@ -862,7 +862,7 @@ section:nth-child(odd) .animate.scroll {
         width: 90%;
     }
 
-    body{
+    section{
         width: 110%;
     }
 
@@ -875,6 +875,7 @@ section:nth-child(odd) .animate.scroll {
     }
 
     .footer{
+        width: 110%;
         flex-direction: column-reverse;
     }
 
@@ -885,8 +886,8 @@ section:nth-child(odd) .animate.scroll {
 }
 
 @media (max-width: 400px){
-    body{
-        width: 130%;
+    section, .footer{
+        width: 120%;
     }
 }
 
