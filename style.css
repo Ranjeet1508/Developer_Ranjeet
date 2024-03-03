@@ -770,6 +770,10 @@ section:nth-child(odd) .animate.scroll {
         background: var(--bg-color);
     }
 
+    .home{
+        background-image: none;
+    }
+
     #menu-icon{
         display: block;
         right: 0;
@@ -828,11 +832,6 @@ section:nth-child(odd) .animate.scroll {
     }
 }
 
-@media (max-width: 660px){
-    .home{
-        background-image: none;
-    }
-}
 
 @media (max-width: 520px){
     html{
